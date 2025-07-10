@@ -15,8 +15,9 @@ This project classifies gamers into four categories based on their behavior and 
   - `GamerType_Explorer`
 
 Features include:
-- Session time
+- Session time per week
 - Streaming hours
+- Total session time
 - In-game purchases
 - Number of friends
 - Preferred game genre (one-hot encoded)
@@ -26,6 +27,7 @@ Features include:
 - One-hot encoding for categorical columns
 - Target variable converted from one-hot to class index
 - Split into train/test using `train_test_split`
+- Also Label encodind the target column
 
 ## 🧠 Models Tried
 
@@ -48,16 +50,14 @@ Features include:
 - scikit-learn
 - XGBoost
 - Matplotlib / Seaborn (for visualization)
-
-## 📈 Future Improvements
-
-- Add feature engineering (e.g. EngagementScore)
-- Use PCA/t-SNE to visualize class separability
-- Explore unsupervised clustering (e.g. KMeans)
-- Try deep learning only after more data is available
+- Tensorflow
 
 ## 📁 Folder Structure
 ├── Gamer Type Classification for PlayArena.csv # Original data
-├── classification.csv # Preprocessed data
-├── model.ipynb / model.py # Training and evaluation scripts
+├── Outputs ├──Preprocessed Data # Preprocessed data
+            ├──EDA report.html # Download and use the file 
+├── model.py  # Training and evaluation scripts
+├── model.ipynb
+├──Google Review link.md
+├──Quora Review Link.md
 └── README.md
