@@ -52,11 +52,12 @@ Features include:
 - Tensorflow
 
 ## 📁 Folder Structure
-├── Gamer Type Classification for PlayArena.csv # Original data
-├── Outputs ├──Preprocessed Data # Preprocessed data
-            ├──EDA report.html # Download and use the file 
-├── model.py  # Training and evaluation scripts
-├── model.ipynb # Download and use the file 
-├──Google Review link.md
-├──Quora Review Link.md
-└── README.md
+- Gamer Type Classification for PlayArena.csv # Original data
+- Outputs / Preprocessed Data # Preprocessed data
+- Outputs / EDA report.html # Download and use the file 
+- model.py  # Training and evaluation scripts
+-  model.ipynb # Download and use the file
+-  Drive link for model_ipynb.md # to access model.ipynb
+- Google Review link.md
+- Quora Review Link.md
+-  README.md
