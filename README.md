@@ -1,4 +1,3 @@
-# Gamer_Type_Classification
 # 🎮 Gamer Type Classification
 
 This project classifies gamers into four categories based on their behavior and preferences using supervised machine learning models.
@@ -57,7 +56,7 @@ Features include:
 ├── Outputs ├──Preprocessed Data # Preprocessed data
             ├──EDA report.html # Download and use the file 
 ├── model.py  # Training and evaluation scripts
-├── model.ipynb
+├── model.ipynb # Download and use the file 
 ├──Google Review link.md
 ├──Quora Review Link.md
 └── README.md
