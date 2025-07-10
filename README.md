@@ -56,8 +56,5 @@ Features include:
 - Outputs / Preprocessed Data # Preprocessed data
 - Outputs / EDA report.html # Download and use the file 
 - model.py  # Training and evaluation scripts
--  model.ipynb # Download and use the file
--  Drive link for model_ipynb.md # to access model.ipynb
-- Google Review link.md
-- Quora Review Link.md
--  README.md
+- Drive link for model_ipynb.md # to access model.ipynb
+- README.md
